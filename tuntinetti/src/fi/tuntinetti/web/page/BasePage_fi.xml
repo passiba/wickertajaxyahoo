@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="title">Tuntinetti - palkanlaskenta</entry>
+	<entry key="nav_page_salarycards">Palkkakortit</entry>
+        
+        <entry key="nav_page_groups_salaryrows">Palkkarivit</entry>
+        <entry key="nav_page_paymentinfo">Maksutiedot</entry>
+        <entry key="nav_page_taxationcards_page">Verokortit</entry>
+         <entry key="nav_page_jobcontracts">Työsopimukset</entry>
+        <entry key="nav_page_salarytemplates">Palkkapohjat</entry>
+        <entry key="footer_text">Elä elävää elämää - maista elävän lähteen vettä</entry>
+        <entry key="apptitle">Tuntinetti</entry>
+
+        <entry key="SalarycardTabsPanel">SalarycardTabsPanel</entry>
+        <entry key="SalaryrowTabsPanel">SalaryrowTabsPanel</entry>
+        <entry key="PaymentTabsPanel">PaymentTabsPanel</entry>
+        <entry key="TaxationTabsPanel">TaxationTabsPanel</entry>
+        <entry key="JobContractTabsPanel">JobContractTabsPanel</entry>
+        <entry key="SalaryTemplateTabsPanel">SalaryTemplateTabsPanel</entry>
+
+</properties>

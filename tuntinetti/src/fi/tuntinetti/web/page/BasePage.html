@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Tuntinetti</title>
+
+        <link href="../../images/favicon.ico" rel="shortcut icon" type="image/ico"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="tuntinetti, työajanseuranta, työaikakirjaukset, mobiili työajanseuranta, työaikajärjestelmä, työaikakirjanpito, työehtosopimukset, työtuntijärjestelmä, työvuorosuunnittelu, työvuoroluettelo, työaikasuunnittelu, työaikalista, työvuorolista, työvuorosuunnitema, jaksotyö, tuntijärjestelmä, työajan lyhennys, lomakalenteri, lyhennysvapaa, vuosityöajan lyhentäminen, lyhennysvapaapäivä, työvuorosuunnittelu, excel, taulukko, lomake, kellokortti, kellokortit, työajanseurantasovellus, työajanseurantajärjestelmä, työajanseurantaohjelma, työajanhallinta, kirjanpito, tuntikortti, tuntikortit, palkanlaskenta, ylityöt, ylitöiden laskenta, työajan laskenta, työaikasäännöt, palkka, työaika, taika, tiima, econet, procountor, tietosuunta, passeli, finnvalli, administer"/>
+        <meta name="description" content="Tuntinetti tulkitsee työajan tes sääntöjen mukaan, suunnittelee työvuorot, laskee palkan ja muodostaa laskutettavan tuntityön asiakaslaskun."/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="content-language" content="fi" />
+        <meta http-equiv="content-style-type" content="text/css"/>
+        <meta http-equiv="Content-script-type" content="text/javascript"/>
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+        <meta name="robots" content="ALL" />
+        <wicket:link>
+            <link rel="stylesheet" type="text/css" media="all" href="css/master.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="css/modal.css" />
+            <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
+            <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/datatable/assets/skins/sam/datatable.css" />
+
+        </wicket:link>
+        
+<!--begin custom header content for this example-->
+<style type="text/css">
+/* custom styles for this example */
+.custom-class {
+	opacity: 0.6;filter:alpha(opacity=60);
+	color:blue;
+	border: 2px solid gray;
+}
+
+#datatable tr {
+ 	cursor: pointer;
+}
+</style>
+
+
+    </head>
+
+    <body>
+        <!-- header -->
+        <div id="content">
+            <h1>Tuntinetti</h1>
+            <img src="images/tuntinetti.png" alt="Tuntinetin logo" id="logo" />
+
+            <div id="customer-logo">
+                <img src="images/employerLogo_5885.PNG" alt="logo" height="40" width="134"/>
+            </div>
+
+
+            <!-- // header -->
+            <!-- navi -->
+       
+
+
+            <!-- content_area -->
+            <div id="content_area" class="content-box">
+
+            <span wicket:id="feedback" />
+            <wicket:child/>
+
+
+            <!-- footer -->
+            
+
+                
+            <p class="copyright">&copy; 2008, 2009 TUNTINETTI</p>
+                  
+            
+            </div>
+        </div>
+       
+    </body>
+</html>

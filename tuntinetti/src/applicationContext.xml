@@ -1,0 +1,38 @@
+ <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:tx="http://www.springframework.org/schema/tx"
+     xmlns:aop="http://www.springframework.org/schema/aop"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+       >
+
+           
+	<!-- beans can't come before imports so have to have these in an import -->
+	<import resource="classpath:common.xml"/>
+
+	<!--
+		Choose a persistence option...
+		NOTE: If using Hibernate, uncomment the filters in the web.xml
+	-->
+	<!--
+	<import resource="classpath:persistence.shades.xml"/>
+	-->
+
+	
+	<!--	
+	<import resource="classpath:persistence.ibatis.xml"/>
+	-->
+	<!-- setup data generator that will add some data into the db when the app starts up 
+	<bean id="dataGenerator" class="wicket.contrib.phonebook.DataGenerator">
+		<property name="contactDao" ref="contactDao"/>
+		<property name="count" value="35"/>
+	</bean>-->
+         <!-- setup wicket application -->
+    <bean id="tuntipalkkaApplication" class="fi.tuntinetti.web.page.TuntilaskentaApplication">
+    </bean>
+  
+
+</beans>
