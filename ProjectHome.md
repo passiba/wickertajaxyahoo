@@ -1,0 +1,1 @@
+illustrates some basic samples how to integrate wicket with Yahoo YUI Library samples
